@@ -3,24 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>addPost
-    </title>
+    <title>addPost</title>
+    <link rel="stylesheet" href="style/addPost.css">
+    <link rel="stylesheet" href="style/uni.css">
 </head>
 <body>
-<nav>
-    <ul>
-        <li><a href="index.html">Home</a>
-        <img src="style/img/profile_icon.png" alt="Profile">
-        </li>
-    </ul>
-    <main>
-        <form action="submitPost" method="post" enctype="multipart/form-data">
-            <label for="postBody">Post body</label><br>
-            <textarea name="postBody" id="postBody" cols="30" rows="10"></textarea><br>
-        </form>
-
-
-    </main>
+<nav class="navbar">
+    <a href="index.html">Home</a>
+    <img src="style/img/profile_icon.svg" class="profile-icon" alt="Profile">
 </nav>
+
+<main>
+    <form action="login.html">
+        <label for="postBody">Post body</label><br>
+        <textarea id="postBody" name="postBody"></textarea><br><br>
+
+        <label for="fileUpload">Select file</label><br>
+        <input type="file" id="fileUpload" name="fileUpload"><br><br>
+
+        <button type="submit">Submit</button>
+    </form>
+</main>
 </body>
 </html>
