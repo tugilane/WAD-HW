@@ -1,7 +1,6 @@
 /* Make page fill screen and use flexbox */
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
@@ -23,7 +22,6 @@ form {
     display: flex;
     flex-direction: column;
     width: 320px;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
 }
 
 /* Label spacing */
@@ -38,7 +36,6 @@ textarea {
     resize: vertical;
     min-height: 80px;
     padding: 5px;
-    font-family: inherit;
 }
 
 input[type="file"] {
