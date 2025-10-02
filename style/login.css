@@ -1,0 +1,9 @@
+.navbar {
+    background-color: rgb(178, 178, 178);
+    border-radius: 5px;
+    padding: 15px 10px;
+}
+
+.navbar a{
+    text-decoration: none;
+}
