@@ -9,6 +9,11 @@ body {
   font-family: Arial, sans-serif;
 }
 
+.mainSoojendus {
+    min-height: 1rem;
+    width: 100%;
+}
+
 .sidebar {
   width: 20%;
   min-height: 100vh;
