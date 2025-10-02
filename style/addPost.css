@@ -11,7 +11,8 @@ main {
     flex: 1; /* take all remaining space */
     display: flex;
     justify-content: center; /* horizontal center */
-    align-items: center;     /* vertical center */
+    align-items: flex-start;     /* vertical center */
+    margin-top: 50px;
 }
 
 /* Style form box */
