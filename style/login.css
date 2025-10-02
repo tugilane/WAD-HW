@@ -47,7 +47,7 @@ main {
 .login-form > input + button {
     width: 150px;
     width: 100px;
-    background-color: rgb(55, 55, 214);
+    background-color: #004080;
     border: none;
     color: white;
     padding: 5px;
@@ -58,7 +58,7 @@ main {
 }
 
 .login-form > input + button:hover {
-    background-color: rgb(48, 48, 184);
+    background-color: #003060;;
 }
 
 .login-form p {

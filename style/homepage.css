@@ -17,8 +17,8 @@ body {
 main {
   display: flex;
   flex-direction: row;
-    justify-content: space-between;
-    padding-top: 1rem;
+  justify-content: space-between;
+  padding-top: 1rem;
 }
 
 .content {
@@ -30,8 +30,8 @@ main {
 article {
   background-color: #f0f0f0;
   border-radius: 5px;
-  margin: 10px 0;
   padding: 10px;
+  margin-bottom: 10px;
 }
 
 .post-header {
@@ -42,7 +42,7 @@ article {
 
 .post-profile-image {
   margin-right: auto;
-    width: 5%;
+  width: 5%;
 }
 
 .post-date {
@@ -54,4 +54,12 @@ footer {
     background-color: #777777;
     height: 6rem;
     margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer p {
+  font-size: 25px;
+  font-weight: 400;
 }
