@@ -1,0 +1,10 @@
+section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sidebar {
+  width: 20%;
+  height: 100vh;
+  background-color: #777777;
+}
