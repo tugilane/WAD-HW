@@ -55,6 +55,8 @@ main {
     cursor: pointer;
     transition: 0.15s;
     margin-bottom: 10px;
+    text-decoration: none;
+    text-align: center;
 }
 
 .login-form > input + button:hover {
